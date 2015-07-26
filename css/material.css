@@ -1,0 +1,109 @@
+a {
+    color: #2980b9;
+}
+
+a:focus
+{
+	-webkit-box-shadow:none;
+	box-shadow: none !important
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type="button"] {
+  border-radius: 0 !important; }
+
+ul, ol, dl {
+  margin-left: 0;
+  margin-bottom: 0; }
+
+
+/* admin menus */
+
+#adminmenu, #adminmenuback, #adminmenuwrap
+{
+	background: #2c3e50;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu
+{
+	background: #1A252F
+}
+
+#adminmenu div.wp-menu-image:before {
+    color: #2c3e50;
+    text-shadow: -1px -1px 0 #ff6669, 1px -1px 0 #ff6669, -1px 1px 0 #ff6669, 1px 1px 0 #ff6669;
+    transition: none !important
+}
+
+#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top {
+    color: #fff;
+    background: #e14d43;
+}
+
+#wpadminbar {
+    color: #fff;
+    background: #2C3E50;
+}
+
+#wp-admin-bar-wp-logo
+{
+	display: none
+}
+
+
+
+
+/* plugins */
+
+/* increase contrast */
+.plugins .active td, .plugins .active th, tr.active + tr.plugin-update-tr .plugin-update, #contextual-help-back, .contextual-help-tabs .active, .contextual-help-tabs .active a, .contextual-help-tabs .active a:hover, .theme-overlay .parent-theme {
+    background-color: #e3f4f9;
+}
+
+
+/* dashboard */
+#rg_forms_dashboard
+{
+	background-color: #728BC5;
+}
+
+#rg_forms_dashboard a
+{
+	color: white
+}
+
+#rg_forms_dashboard a:hover
+{
+	color:white;
+	text-decoration: underline;
+}
+
+
+
+
+/* form styles*/
+input, select
+{
+	padding: 12px
+}
+
+.wrap .add-new-h2
+{
+	background: #ff6669;
+	color: white;
+}
+
+ .wrap .add-new-h2:active
+ {
+ 	background: #333
+ }
+
+  .wrap .add-new-h2:hover
+  {
+  	background: #ddd
+  }
+
