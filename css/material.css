@@ -65,9 +65,22 @@ ul, ol, dl {
 }
 
 
+/* dashboard */
+#rg_forms_dashboard
+{
+	background-color: #728BC5;
+}
 
+#rg_forms_dashboard a
+{
+	color: white
+}
 
-
+#rg_forms_dashboard a:hover
+{
+	color:white;
+	text-decoration: underline;
+}
 
 
 
