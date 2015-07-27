@@ -1,3 +1,8 @@
+body
+{
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
 a {
     color: #2980b9;
 }
@@ -37,6 +42,10 @@ ul, ol, dl {
     color: #2c3e50;
     text-shadow: -1px -1px 0 #ff6669, 1px -1px 0 #ff6669, -1px 1px 0 #ff6669, 1px 1px 0 #ff6669;
     transition: none !important
+}
+
+#adminmenu li.menu-top:hover div.wp-menu-image:before, #adminmenu li.opensub>a.menu-top div.wp-menu-image:before {
+    color: #fff;
 }
 
 #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top {
