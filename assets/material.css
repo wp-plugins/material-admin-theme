@@ -240,6 +240,17 @@ select:focus
     border-color:  #33C3F0;
 }
 
+body.import-php .tb-close-icon,
+body.index-php .tb-close-icon,
+body.plugin-install-php .tb-close-icon,
+body.plugins-php .tb-close-icon,
+body.update-core-php .tb-close-icon
+{
+    right: 5px;
+    top: 5px;
+    color: #636363;
+}
+
 
 
 /* Dashboards
