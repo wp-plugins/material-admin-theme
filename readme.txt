@@ -34,6 +34,13 @@ Nope, it does not. It is just a way to give a nice touch to the backend.
 
 == Changelog ==
 
+= 1.1 =
+* Color scheme changes - screaming red to flat ocean blue
+* Improved contrast between rows in posts, pages, etc
+* Improved typography
+* Flat buttons
+* Numerous bugfixes
+
 = 1.0 =
 * initial version
 
