@@ -173,9 +173,9 @@ input.code
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=search]:focus, textarea:focus
+,#titlediv #title:focus
 {
 	box-shadow: none;
-	outline: 2px solid #9DA5C7;
 }
 
 select
@@ -219,13 +219,14 @@ select:focus
 .wp-core-ui .button, .wp-core-ui .button-secondary
 {
 	display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 18px;
+    background: white;
     color: #555;
     text-align: center;
     font-size: 14px;
     text-decoration: none;
     border-radius: 4px;
-    border: 1px solid #bbb;
+    border: 1px solid #ddd;
     cursor: pointer;
     box-sizing: border-box;
     box-shadow: none !important;
@@ -238,6 +239,11 @@ select:focus
     color: #FFF;
     background-color: #33C3F0;
     border-color:  #33C3F0;
+}
+
+#publishing-action input
+{
+    border-radius: 150px;
 }
 
 body.import-php .tb-close-icon,
