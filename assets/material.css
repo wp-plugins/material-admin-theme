@@ -188,6 +188,16 @@ select:focus
 	border-width: 1px;
 }
 
+.wp-admin select
+{
+    height: 36px;
+}
+
+.tablenav
+{
+    height: auto
+}
+
 .wrap .add-new-h2
 {
     background: #ff6669;
