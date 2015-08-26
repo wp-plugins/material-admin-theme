@@ -52,17 +52,19 @@ dl
 
 #adminmenu div.wp-menu-name
 {
-	font-weight: 300;
-	font-size: 15px;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 #adminmenu .wp-has-current-submenu .wp-submenu,
 #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
 #adminmenu .wp-submenu,
 #adminmenu a.wp-has-current-submenu:focus+.wp-submenu,
-.folded #adminmenu .wp-has-current-submenu .wp-submenu
+.folded #adminmenu .wp-has-current-submenu .wp-submenu,
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input
 {
-    background: #1A252F
+    background: #1A252F;
+    background: rgba(26, 37, 47, 0.88);
 }
 
 #adminmenu div.wp-menu-image:before
@@ -172,20 +174,43 @@ input.code
     padding: 12px
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=search]:focus, textarea:focus
+input[type=text]:focus, input[type=password]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=search]:focus, textarea:focus
 {
-	box-shadow: none;
-	outline: 2px solid #9DA5C7;
+    box-shadow: none;
+    outline: rgb(94, 158, 215) auto 5px;
+    outline: -webkit-focus-ring-color auto 5px;
+    border-color: transparent;
+}
+
+.media-frame input[type=text]:focus, .media-frame input[type=password]:focus, .media-frame input[type=number]:focus, .media-frame input[type=search]:focus, .media-frame input[type=email]:focus, .media-frame input[type=url]:focus, .media-frame select:focus, .media-frame textarea:focus
+{
+    box-shadow: none;
+    outline: rgb(94, 158, 215) auto 5px;
+    outline: -webkit-focus-ring-color auto 5px;
+    border-color: transparent;
+}
+
+input[type=checkbox]:focus
+{
+    box-shadow: none;
+    outline: none;
 }
 
 select
 {
-	cursor: pointer;
+    cursor: pointer;
 }
 select:focus
 {
-	box-shadow: none;
-	border-width: 1px;
+    box-shadow: none;
+
+
+}
+
+.wp-admin select
+{
+    height: 36px;
+    line-height: 36px;
 }
 
 .wrap .add-new-h2
@@ -204,18 +229,24 @@ select:focus
     background: #ddd
 }
 
+.search-box input[name="s"], .tablenav .search-plugins input[name="s"], .tagsdiv .newtag
+{
+    height: 36px
+}
+
 
 /* buttons */
 .wp-core-ui .button, .wp-core-ui .button-secondary
 {
-	display: inline-block;
+    display: inline-block;
     padding: 10px 20px;
     color: #555;
     text-align: center;
     font-size: 14px;
     text-decoration: none;
     border-radius: 4px;
-    border: 1px solid #bbb;
+    background: white;
+    border: 1px solid #ddd;
     cursor: pointer;
     box-sizing: border-box;
     box-shadow: none !important;
@@ -228,9 +259,27 @@ select:focus
     color: #FFF;
     background-color: #33C3F0;
     border-color:  #33C3F0;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.05)
 }
 
+.wp-core-ui .welcome-panel .button.button-hero
+{
+    padding: 12px 22px;
+}
 
+input#publish
+{
+    border-radius: 150px;
+}
+
+/* Spacing
+============================================
+*/
+
+.tablenav
+{
+    height: auto;
+}
 
 /* Dashboards
 ============================================
@@ -238,21 +287,21 @@ select:focus
 
 /*#dashboard_right_now
 {
-	background: #68C3A3;
+    background: #68C3A3;
     color: whitesmoke;
 }
 
 #dashboard_right_now h3, #dashboard_right_now a
 {
-	color: #1A2F28;
+    color: #1A2F28;
 }
 
 #dashboard_right_now .hndle
 {
-	border-bottom-color:#68C3A3
+    border-bottom-color:#68C3A3
 }
 
 #dashboard-widgets a:hover
 {
-	text-decoration: underline;
+    text-decoration: underline;
 }*/
