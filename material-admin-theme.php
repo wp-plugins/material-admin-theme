@@ -4,7 +4,7 @@
 Plugin Name: Material Admin Theme
 Plugin URI:
 Description: Clean, eye-pleasing theme
-Author: Gregory Petrosyan
+Author: chmln
 Version: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
