@@ -1,38 +1,43 @@
 === Material Admin Theme ===
 Contributors: chmln
-Tags: theme, basic, clean, minimalistic, wordpress admin, backend, backend theme, admin theme, custom admin, custom admin theme, flat, material, 
+Tags: theme, basic, clean, minimalistic, wordpress admin, backend, backend theme, admin theme, custom admin, custom admin theme, flat, material,
 Requires at least: 3.0
-Tested up to: 4.2.3
-Stable tag: 1.0.2
+Tested up to: 4.3
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Dark material theme for wordpress admin. Flat design, improved contrast. Have your backend look like 2015.
+Material blue theme for wordpress admin. Flat design, improved contrast. Have your backend look like 2015.
 
 == Description ==
 
-This is an admin theme, intended to make the wordpress backend eye-pleasing and less frustrating. Features better contrast and a modern look.
+The look of wordpress backend is dated. This eye-pleasing theme delivers better contrast and a modern look.
 
 == Installation ==
 
-This plugin doesn't need much installation or configuration.
-
-1. Upload the 'material-admin-theme' directory to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+Just hit 'Install Now'
 
 == Frequently Asked Questions ==
 
-= Does this plugin in any way influence my frontend? =
-
-Nope, it does not. It is just a way to give a nice touch to the backend.
-
 == Screenshots ==
 
-1. Dashboard
-2. Plugins
-3. Posts
+1. Dashboard View
+2. Contrast: even rows are distinguishably gray
+3. Smooth typography and some transparency for an eye-candy look
 
 == Changelog ==
+
+= 1.2 =
+* Improved accessibility
+* Added a bit of transparency to submenus
+* Bugfixes
+
+= 1.1 =
+* Color scheme changes - screaming red to flat ocean blue
+* Improved contrast between rows in posts, pages, etc
+* Improved typography
+* Flat buttons
+* Numerous bugfixes
 
 = 1.0 =
 * initial version
